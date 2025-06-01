@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Test your knowledge of the digital world",
+      "metaDescription": "Test your technology knowledge with engaging quizzes on smartphones, AI, hardware, software, internet, and gaming. Challenge yourself with 66+ tech trivia questions.",
+      "icon": "BookOpen",
+      "color": "purple",
+      "tags": ["Smartphones", "AI", "Hardware", "Software", "Internet", "Gaming"],
+      "featured": true,
+      "totalQuizzes": 66
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "description": "Journey through time and test your historical knowledge",
+      "metaDescription": "Explore world history through interactive quizzes covering ancient civilizations, medieval times, modern wars, and historical leaders. 92+ history trivia questions await.",
+      "icon": "Globe",
+      "color": "orange",
+      "tags": ["Ancient", "Medieval", "Modern", "Wars", "Civilizations", "Leaders"],
+      "featured": true,
+      "totalQuizzes": 92
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Explore the wonders of scientific discovery",
+      "metaDescription": "Discover the wonders of science with quizzes on physics, chemistry, biology, space exploration, medicine, and environment. 2+ scientific trivia questions to test your knowledge.",
+      "icon": "Atom",
+      "color": "teal",
+      "tags": ["Physics", "Chemistry", "Biology", "Space", "Medicine", "Environment"],
+      "featured": true,
+      "totalQuizzes": 2
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "description": "Movies, music, and pop culture trivia",
+      "metaDescription": "Test your entertainment knowledge with fun quizzes on movies, music, TV shows, celebrities, books, and sports. 166+ pop culture trivia questions for entertainment lovers.",
+      "icon": "Film",
+      "color": "primary",
+      "tags": ["Movies", "Marvel", "Harry Potter", "Horror", "Comedy", "Action", "Animation", "TV Shows", "Breaking Bad", "Game of Thrones", "Netflix", "Disney", "Music", "Pop Music", "Rock Music", "Hip-Hop", "Celebrities", "Sports", "Football", "Basketball", "Books", "Fantasy", "Sci-Fi"],
+      "featured": true,
+      "totalQuizzes": 166
+    }
+  ]
+} 

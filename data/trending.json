@@ -1,0 +1,40 @@
+{
+  "trending": [
+    {
+      "id": "space-exploration",
+      "title": "Space Exploration - Quiz",
+      "category": "Science",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=600",
+      "participants": 18900,
+      "duration": 10,
+      "difficulty": "Hard"
+    },
+    {
+      "id": "movie-classics",
+      "title": "Movie Classics - Quiz",
+      "category": "Entertainment",
+      "image": "https://images.unsplash.com/photo-1489599424155-b4c7fb72bb16?w=800&h=600",
+      "participants": 15420,
+      "duration": 8,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ai-fundamentals",
+      "title": "AI Fundamentals - Quiz",
+      "category": "Technology",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600",
+      "participants": 14200,
+      "duration": 7,
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ancient-civilizations",
+      "title": "Ancient Civilizations - Quiz",
+      "category": "History",
+      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d3d6b3?w=800&h=600",
+      "participants": 12300,
+      "duration": 9,
+      "difficulty": "Medium"
+    }
+  ]
+} 

@@ -1,0 +1,71 @@
+Design and generate a modern, colorful, and engaging trivia website using Node.js with Static Site Generation (SSG), ideally with Next.js or a similar framework.
+
+The site allows users to explore and take trivia quizzes across multiple categories. The UI should feel fun, sleek, and intuitive — suitable for both casual users and trivia enthusiasts.
+
+---
+
+🏠 Home Page (Landing Page Layout):
+- Modern hero section with catchy title and CTA ("Test your brain with fun trivia challenges!")
+- Display all main categories as colorful cards or icons (e.g., Technology, History, Science, Entertainment)
+- Responsive grid layout for categories
+- Navigation bar with logo, links to Categories, About, Search, etc.
+- Bright, quiz-themed color palette (purples, blues, oranges — like Kahoot, Duolingo)
+
+---
+
+📁 Category Page (e.g., `/category/technology`):
+- Displays all **quizzes under the selected category**
+- **Tag filter bar** at the top for subtopics (e.g., "Smartphones", "AI", "Hardware")
+- When a tag is selected, dynamically filter the trivia list below
+- Trivia quizzes are displayed as **beautiful cards** with title, description, difficulty, and "Start Quiz" button
+- Include a **search bar** to search trivia titles within the category
+- Keep layout responsive with smooth filtering and animation
+
+---
+
+🧠 Trivia Page (e.g., `/category/technology/smartphones/quiz/deadpool-quiz`):
+- One-question-at-a-time layout with:
+  - Question text at top
+  - Four answer options (radio buttons or cards)
+- On the right side (or sticky top on mobile):
+  - **Answer tracker** (e.g., 10/15 answered)
+  - **Timer**
+  - Button to **submit or complete quiz**
+- Show result and correct answers at the end with score breakdown and CTA to try another quiz
+- Add smooth transitions between questions (slide or fade)
+
+---
+
+🔖 Tags:
+- Each **subcategory under a main category** should be represented as a clickable **tag** (e.g., "Smartphone", "AI", "Gadgets" under "Technology")
+- Tags are visible at the top of the category page and help filter quizzes
+
+---
+
+⚙️ Tech Stack:
+- Use **Node.js** with **Next.js** and **Static Site Generation (SSG)** for performance and SEO
+- Quizzes and categories can be stored in JSON, Markdown, or as local files for SSG
+- Pages should be generated at build time (e.g., `getStaticPaths` and `getStaticProps`)
+- Use Tailwind CSS or modern CSS modules for styling
+
+---
+
+📱 Responsiveness:
+- Must be mobile-first with adaptive layout
+- Trivia question view should collapse the sidebar (timer + tracker) into top bar on mobile
+
+---
+
+🎨 Design Vibe:
+- Clean fonts (Inter, Poppins, DM Sans)
+- Soft but vibrant quiz-themed color palette (purple, teal, orange)
+- Smooth hover effects and micro-interactions
+- Slight shadows, 2xl rounded corners, vibrant icons
+
+---
+
+Extra:
+- Include a sitemap for SEO
+- Accessible (keyboard nav, contrast, alt tags)
+- Fast page loads (optimize images, pre-render quizzes)
+

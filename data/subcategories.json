@@ -1,0 +1,100 @@
+{
+  "subcategories": [
+    {
+      "id": "programming",
+      "name": "Programming",
+      "categoryId": "technology",
+      "metaDescription": "Master programming concepts with quizzes covering languages, algorithms, data structures, and coding best practices. Perfect for developers and coding enthusiasts."
+    },
+    {
+      "id": "artificial-intelligence",
+      "name": "AI & Machine Learning",
+      "categoryId": "technology",
+      "metaDescription": "Explore artificial intelligence and machine learning through interactive quizzes. Test your knowledge of neural networks, algorithms, and AI applications."
+    },
+    {
+      "id": "web-development",
+      "name": "Web Development",
+      "categoryId": "technology",
+      "metaDescription": "Test your web development skills with quizzes on HTML, CSS, JavaScript, frameworks, and modern web technologies. Perfect for web developers."
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "categoryId": "technology",
+      "metaDescription": "Challenge your cybersecurity knowledge with quizzes on network security, encryption, threats, and digital safety practices."
+    },
+    {
+      "id": "ancient-civilizations",
+      "name": "Ancient Civilizations",
+      "categoryId": "history",
+      "metaDescription": "Journey through ancient history with quizzes on Egyptian, Roman, Greek, and Mesopotamian civilizations. Discover the foundations of human society."
+    },
+    {
+      "id": "world-wars",
+      "name": "World Wars",
+      "categoryId": "history",
+      "metaDescription": "Test your knowledge of World War I and II with comprehensive quizzes covering battles, leaders, strategies, and historical impacts."
+    },
+    {
+      "id": "medieval-history",
+      "name": "Medieval History",
+      "categoryId": "history",
+      "metaDescription": "Explore the Middle Ages through engaging quizzes on knights, castles, feudalism, and medieval life. Perfect for history enthusiasts."
+    },
+    {
+      "id": "american-history",
+      "name": "American History",
+      "categoryId": "history",
+      "metaDescription": "Discover American history from colonial times to modern day with quizzes on presidents, wars, civil rights, and historical events."
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "categoryId": "science",
+      "metaDescription": "Challenge your physics knowledge with quizzes on mechanics, thermodynamics, quantum physics, and fundamental physical laws."
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "categoryId": "science",
+      "metaDescription": "Test your chemistry expertise with quizzes on elements, compounds, reactions, and chemical principles. Perfect for chemistry students."
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "categoryId": "science",
+      "metaDescription": "Explore life sciences with biology quizzes covering anatomy, genetics, evolution, ecology, and biological processes."
+    },
+    {
+      "id": "astronomy",
+      "name": "Astronomy",
+      "categoryId": "science",
+      "metaDescription": "Journey through space with astronomy quizzes on planets, stars, galaxies, and cosmic phenomena. Perfect for space enthusiasts."
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "categoryId": "entertainment",
+      "metaDescription": "Test your movie knowledge with film quizzes covering classics, blockbusters, directors, actors, and cinema history. Perfect for movie buffs."
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "categoryId": "entertainment",
+      "metaDescription": "Challenge your musical knowledge with quizzes on genres, artists, albums, instruments, and music history across all eras."
+    },
+    {
+      "id": "tv-shows",
+      "name": "TV Shows",
+      "categoryId": "entertainment",
+      "metaDescription": "Test your television knowledge with TV show quizzes covering popular series, characters, plot lines, and television history."
+    },
+    {
+      "id": "celebrities",
+      "name": "Celebrities",
+      "categoryId": "entertainment",
+      "metaDescription": "Explore celebrity culture with quizzes on famous personalities, their lives, achievements, and pop culture moments."
+    }
+  ]
+} 
