@@ -6,26 +6,44 @@ import Link from 'next/link'
 import { Brain, Home, BookOpen, Info, Github, Twitter, Linkedin } from 'lucide-react'
 
 export const metadata: Metadata = {
-  robots: "index, follow",
-  metadataBase: new URL('https://triviaziggle.com'),
-  title: 'Triviaziggle - Challenge Your Knowledge with Interactive Quizzes',
-  description: 'Join millions of quiz enthusiasts and test your expertise across science, technology, history, and entertainment. Free interactive trivia quizzes with instant feedback and detailed explanations.',
-  keywords: ['trivia quiz', 'knowledge test', 'interactive quiz', 'science quiz', 'technology quiz', 'history quiz', 'entertainment quiz', 'brain training', 'educational games'],
+  metadataBase: new URL('https://triviainsider.com'),
+  title: 'TriviaInsider - Challenge Your Knowledge with Interactive Quizzes',
+  description: 'Test your knowledge with our extensive collection of interactive trivia quizzes. From movies and music to science and history, challenge yourself across dozens of categories.',
+  keywords: ['trivia', 'quiz', 'knowledge test', 'brain training', 'educational games', 'entertainment', 'learning'],
+  authors: [{ name: 'TriviaInsider Team' }],
+  creator: 'TriviaInsider',
+  publisher: 'TriviaInsider',
+  robots: 'index, follow',
+  
   alternates: {
     canonical: '/'
   },
+  
   openGraph: {
-    title: 'Triviaziggle - Challenge Your Knowledge with Interactive Quizzes',
-    description: 'Join millions of quiz enthusiasts and test your expertise across science, technology, history, and entertainment. Free interactive trivia quizzes with instant feedback.',
     type: 'website',
-    siteName: 'Triviaziggle',
-    url: 'https://triviaziggle.com'
+    locale: 'en_US',
+    title: 'TriviaInsider - Challenge Your Knowledge with Interactive Quizzes',
+    description: 'Test your knowledge with our extensive collection of interactive trivia quizzes across multiple categories.',
+    siteName: 'TriviaInsider',
+    url: 'https://triviainsider.com'
   },
+  
   twitter: {
     card: 'summary_large_image',
-    title: 'Triviaziggle - Challenge Your Knowledge',
-    description: 'Test your knowledge with interactive trivia quizzes across multiple categories. Join millions of learners today!',
+    title: 'TriviaInsider - Challenge Your Knowledge',
+    description: 'Test your knowledge with our extensive collection of interactive trivia quizzes across multiple categories.',
+    creator: '@TriviaInsider'
   },
+  
+  viewport: 'width=device-width, initial-scale=1',
+  
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+  
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
@@ -48,7 +66,7 @@ export default function RootLayout({
               <div className="col-span-1 md:col-span-2">
                 <div className="flex items-center gap-2 mb-4">
                   <Brain className="h-8 w-8 text-purple-400" />
-                  <span className="text-2xl font-bold">Triviaziggle</span>
+                  <span className="text-2xl font-bold">TriviaInsider</span>
                 </div>
                 <p className="text-gray-400 mb-6 max-w-md">
                   Challenge your knowledge with thousands of quizzes across various categories. 
@@ -124,18 +142,15 @@ export default function RootLayout({
             <div className="border-t border-gray-800 mt-12 pt-8">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <p className="text-gray-400 text-sm">
-                  © 2025 Triviaziggle. All rights reserved.
+                  © 2025 TriviaInsider. All rights reserved.
                 </p>
                 <div className="flex gap-6 mt-4 md:mt-0">
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
                     Privacy Policy
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  </Link>
+                  <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
                     Terms of Service
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                    Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

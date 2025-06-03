@@ -37,19 +37,19 @@ export async function generateMetadata({ params }: QuizPageProps): Promise<Metad
   }
   
   return {
-    title: `${quiz.title} - Interactive Trivia Quiz | Triviaziggle`,
-    description: quiz.metaDescription || quiz.description || `Test your knowledge with this ${quiz.difficulty.toLowerCase()} difficulty quiz on ${quiz.category}.`,
-    keywords: [quiz.title, `${quiz.category} quiz`, `${quiz.difficulty} quiz`, 'trivia', 'knowledge test'],
-    robots: 'index, follow',
+    robots: "index, follow",
+    title: `${quiz.title} - Interactive Trivia Quiz | TriviaInsider`,
+    description: `${quiz.description} Test your knowledge with this interactive ${quiz.category} trivia quiz featuring ${quiz.questions.length} challenging questions.`,
+    keywords: [quiz.title, `${quiz.category} quiz`, 'trivia', 'interactive quiz', 'knowledge test', ...quiz.tags],
     alternates: {
       canonical: `/quiz/${params.quizId}`
     },
     openGraph: {
-      title: quiz.title,
+      title: `${quiz.title} - Interactive Trivia Quiz`,
       description: quiz.description,
       type: 'website',
-      siteName: 'Triviaziggle',
-      url: `https://triviaziggle.com/quiz/${params.quizId}`
+      siteName: 'TriviaInsider',
+      url: `https://triviainsider.com/quiz/${params.quizId}`
     },
   }
 }

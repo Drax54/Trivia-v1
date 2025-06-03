@@ -4,24 +4,24 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   robots: "index, follow",
-  title: 'About Triviaziggle - Interactive Trivia Quizzes and Knowledge Tests',
-  description: 'Learn about Triviaziggle, your premier destination for interactive trivia quizzes across multiple categories. Join millions in challenging your knowledge and brain training.',
-  keywords: ['about triviaziggle', 'trivia quiz platform', 'knowledge testing', 'brain training', 'educational quizzes'],
+  title: 'About TriviaInsider - Interactive Trivia Quizzes and Knowledge Tests',
+  description: 'Learn about TriviaInsider, your premier destination for interactive trivia quizzes across multiple categories. Join millions in challenging your knowledge and brain training.',
+  keywords: ['about triviainsider', 'trivia quiz platform', 'knowledge testing', 'brain training', 'educational quizzes'],
   alternates: {
     canonical: '/about'
   },
   openGraph: {
-    title: 'About Triviaziggle - Interactive Trivia Quizzes',
-    description: 'Learn about Triviaziggle, your premier destination for interactive trivia quizzes across multiple categories.',
+    title: 'About TriviaInsider - Interactive Trivia Quizzes',
+    description: 'Learn about TriviaInsider, your premier destination for interactive trivia quizzes across multiple categories.',
     type: 'website',
-    siteName: 'Triviaziggle',
-    url: 'https://triviaziggle.com/about'
+    siteName: 'TriviaInsider',
+    url: 'https://triviainsider.com/about'
   },
 }
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-2 text-sm text-gray-600 mb-8">
@@ -39,7 +39,7 @@ export default function AboutPage() {
         <div className="text-center mb-16">
           <div className="text-6xl mb-6">🧠</div>
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            About Triviaziggle
+            About TriviaInsider
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're passionate about making learning fun and accessible. Our trivia platform 

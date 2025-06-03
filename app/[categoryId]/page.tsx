@@ -34,19 +34,27 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     }
   }
   
+  const typedQuizzes = quizzes as Quiz[]
+  const categoryQuizzes = typedQuizzes.filter(quiz => quiz.category === params.categoryId)
+  const quizCount = categoryQuizzes.length
+
+  const title = `${category.name} Trivia - Interactive ${category.name} Quizzes | TriviaInsider`
+  const description = `Challenge yourself with ${category.name.toLowerCase()} trivia quizzes. Test your knowledge across ${quizCount} interactive ${category.name.toLowerCase()} questions with instant feedback and detailed explanations.`
+
   return {
-    title: `${category.name} Trivia - Interactive ${category.name} Quizzes | Triviaziggle`,
-    description: category.metaDescription || `Test your ${category.name.toLowerCase()} knowledge with engaging quizzes.`,
-    keywords: [`${category.name.toLowerCase()} quiz`, `${category.name.toLowerCase()} trivia`, 'interactive quiz', 'knowledge test'],
+    robots: "index, follow",
+    title,
+    description,
+    keywords: [`${category.name.toLowerCase()} trivia`, `${category.name.toLowerCase()} quiz`, 'interactive quiz', 'knowledge test', 'brain training'],
     alternates: {
       canonical: `/${params.categoryId}`
     },
     openGraph: {
-      title: `${category.name} Trivia - Interactive ${category.name} Quizzes`,
-      description: category.metaDescription,
+      title,
+      description,
       type: 'website',
-      siteName: 'Triviaziggle',
-      url: `https://triviaziggle.com/${params.categoryId}`
+      siteName: 'TriviaInsider',
+      url: `https://triviainsider.com/${params.categoryId}`
     },
   }
 }

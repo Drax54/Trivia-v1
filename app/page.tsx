@@ -29,21 +29,24 @@ import subcategoriesData from '@/data/subcategories.json';
 import trendingData from '@/data/trending.json';
 import statsData from '@/data/stats.json';
 
-export const metadata = {
-  title: "Triviaziggle - Interactive Trivia Quizzes & Knowledge Tests",
-  description: "Challenge your mind with hundreds of interactive trivia quizzes covering movies, TV, music, technology, history, and science. Free brain training games with instant feedback.",
-  keywords: "trivia quiz, knowledge test, brain training, interactive quiz, trivia questions, quiz games, education, learning",
+export const metadata: Metadata = {
   robots: "index, follow",
+  title: "TriviaInsider - Interactive Trivia Quizzes & Knowledge Tests",
+  description: "Discover the ultimate trivia experience with thousands of interactive quizzes across entertainment, technology, science, history, and more. Free online trivia with instant feedback and detailed explanations.",
+  keywords: ["trivia quiz", "knowledge test", "interactive quiz", "entertainment quiz", "technology quiz", "science quiz", "history quiz", "brain training"],
+  alternates: {
+    canonical: "/"
+  },
   openGraph: {
-    title: "Triviaziggle - Interactive Trivia Quizzes",
-    description: "Challenge your mind with hundreds of interactive trivia quizzes covering movies, TV, music, technology, history, and science.",
-    url: "https://triviaziggle.com",
+    title: "TriviaInsider - Interactive Trivia Quizzes",
+    description: "Discover the ultimate trivia experience with thousands of interactive quizzes across multiple categories.",
+    url: "https://triviainsider.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Triviaziggle - Interactive Trivia Quizzes",
-    description: "Challenge your mind with hundreds of interactive trivia quizzes covering movies, TV, music, technology, history, and science.",
+    title: "TriviaInsider - Interactive Trivia Quizzes",
+    description: "Discover the ultimate trivia experience with thousands of interactive quizzes across multiple categories.",
   },
 }
 

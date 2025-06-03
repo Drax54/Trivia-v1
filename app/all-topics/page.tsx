@@ -17,18 +17,18 @@ interface Quiz {
 
 export const metadata: Metadata = {
   robots: "index, follow",
-  title: 'All Topics - Trivia Quiz Browser | Triviaziggle',
+  title: 'All Topics - Trivia Quiz Browser | TriviaInsider',
   description: 'Browse all available trivia topics and tags. Find quizzes by your favorite subjects including movies, TV shows, music, technology, history, science and more.',
   keywords: ['trivia topics', 'quiz categories', 'trivia tags', 'quiz browser', 'entertainment quiz', 'technology quiz', 'history quiz', 'science quiz'],
   alternates: {
-    canonical: '/all-topics'
+    canonical: 'https://triviainsider.com/all-topics'
   },
   openGraph: {
     title: 'All Topics - Trivia Quiz Browser',
     description: 'Browse all available trivia topics and tags. Find quizzes by your favorite subjects.',
     type: 'website',
-    siteName: 'Triviaziggle',
-    url: 'https://triviaziggle.com/all-topics'
+    siteName: 'TriviaInsider',
+    url: 'https://triviainsider.com/all-topics'
   },
 }
 

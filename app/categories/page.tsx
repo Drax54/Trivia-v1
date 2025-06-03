@@ -17,18 +17,19 @@ import categoriesData from '@/data/categories.json'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'All Quiz Categories - Interactive Trivia and Knowledge Tests | Triviaziggle',
-  description: 'Explore our comprehensive collection of trivia categories including science, technology, history, and entertainment. Find the perfect quiz to test your knowledge across diverse topics.',
-  keywords: ['quiz categories', 'trivia categories', 'science quiz', 'technology quiz', 'history quiz', 'entertainment quiz', 'knowledge test', 'interactive quizzes'],
+  robots: "index, follow",
+  title: 'All Quiz Categories - Interactive Trivia and Knowledge Tests | TriviaInsider',
+  description: 'Explore our comprehensive collection of trivia categories including Entertainment, Technology, Science, History and more. Find the perfect quiz to challenge your knowledge across diverse subjects.',
+  keywords: ['trivia categories', 'quiz topics', 'knowledge categories', 'entertainment quiz', 'technology trivia', 'science quiz', 'history trivia'],
   alternates: {
     canonical: '/categories'
   },
   openGraph: {
     title: 'All Quiz Categories - Interactive Trivia and Knowledge Tests',
-    description: 'Explore our comprehensive collection of trivia categories including science, technology, history, and entertainment. Find the perfect quiz to test your knowledge.',
+    description: 'Explore our comprehensive collection of trivia categories. Find the perfect quiz to challenge your knowledge across diverse subjects.',
     type: 'website',
-    siteName: 'Triviaziggle',
-    url: 'https://triviaziggle.com/categories'
+    siteName: 'TriviaInsider',
+    url: 'https://triviainsider.com/categories'
   },
 }
 

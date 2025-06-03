@@ -408,36 +408,38 @@ export default function QuizPageClient({ quiz, categoryId }: QuizPageClientProps
           </div>
 
           {/* Article Section */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 mt-8">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  {contentTitle}
-                </h2>
-                <p className="text-lg text-gray-600">{quiz.categoryDescription}</p>
-              </div>
-              
-              <div className="prose prose-lg max-w-none">
-                {renderContent(quizContent!.content)}
-              </div>
-              
-              <div className="border-t border-gray-200 pt-8 mt-8">
-                <div className="text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    Ready for More Challenges?
-                  </h3>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link href={`/${categoryId}`} className="btn-primary">
-                      More {categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Quizzes
-                    </Link>
-                    <Link href="/categories" className="btn-secondary">
-                      Explore All Categories
-                    </Link>
+          {quizContent?.content && (
+            <div className="bg-white rounded-2xl shadow-xl p-8 mt-8">
+              <div className="max-w-4xl mx-auto">
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                    {contentTitle}
+                  </h2>
+                  <p className="text-lg text-gray-600">{quiz.categoryDescription}</p>
+                </div>
+                
+                <div className="prose prose-lg max-w-none">
+                  {renderContent(quizContent.content)}
+                </div>
+                
+                <div className="border-t border-gray-200 pt-8 mt-8">
+                  <div className="text-center">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                      Ready for More Challenges?
+                    </h3>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                      <Link href={`/${categoryId}`} className="btn-primary">
+                        More {categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Quizzes
+                      </Link>
+                      <Link href="/categories" className="btn-secondary">
+                        Explore All Categories
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     )

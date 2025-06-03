@@ -14,7 +14,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-purple-600" />
-            <span className="text-xl font-bold text-gray-900">Triviaziggle</span>
+            <span className="text-xl font-bold text-gray-900">TriviaInsider</span>
           </Link>
 
           {/* Desktop Navigation */}

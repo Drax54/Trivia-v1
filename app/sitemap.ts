@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next'
-import categoriesData from '@/data/categories.json'
 import quizzes from '@/data/quizzes.json'
+import categoriesData from '@/data/categories.json'
+
+const baseUrl = 'https://triviainsider.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://triviaziggle.com'
   const categories = categoriesData.categories
 
   // Static routes
