@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   publisher: 'TriviaInsider',
   robots: 'index, follow',
   
+  verification: {
+    google: 'cmyXRnhXisJCV8npC-LT2-WAR03WgPCr9pMtmNwoKdM'
+  },
+  
   alternates: {
     canonical: '/'
   },
