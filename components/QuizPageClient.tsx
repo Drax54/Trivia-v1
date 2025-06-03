@@ -78,6 +78,12 @@ export default function QuizPageClient({ quiz, categoryId }: QuizPageClientProps
 
     setIsQuizCompleted(true)
     setShowResult(true)
+    
+    // Scroll to top when results are shown
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
   }
 
   const scrollToContent = () => {
