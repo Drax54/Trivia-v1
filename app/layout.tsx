@@ -1,5 +1,5 @@
 import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import Navigation from '@/components/Navigation'
 import ScrollToTop from '@/components/ScrollToTop'
 import Link from 'next/link'
@@ -35,8 +35,6 @@ export const metadata: Metadata = {
     creator: '@TriviaInsider'
   },
   
-  viewport: 'width=device-width, initial-scale=1',
-  
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
@@ -44,6 +42,11 @@ export const metadata: Metadata = {
   },
   
   manifest: '/site.webmanifest',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
